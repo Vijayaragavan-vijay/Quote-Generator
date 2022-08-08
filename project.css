@@ -1,0 +1,67 @@
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+ * {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+ }
+ 
+ body {
+     background-color: tomato;
+     text-align: center;
+ }
+ 
+ .header {
+     text-align: center;
+     height: 50px;
+     margin-top: 30px;
+     font-size: larger;
+     font-size: 35px;
+     color: white;
+     font-family: 'Dancing Script', cursive;
+ }
+ 
+ .main {
+     width: 100%;
+     display: block;
+     height: 400px;
+     text-align: center;
+     color: white;
+ }
+ 
+ .main p {
+     /* */
+     font-family: 'Satisfy', cursive;
+     font-size: 100px;
+ }
+ 
+ button {
+     display: block;
+     margin-left: 43%;
+     width: 200px;
+     align-items: center;
+     text-align: center;
+     border: none;
+     padding: 10px 20px;
+     font-size: 16px;
+     margin-top: 20px;
+     border-radius: 5px;
+ }
+ 
+ button:hover {
+     border: 3px solid black;
+     cursor: pointer;
+ }
+ 
+ @media screen and (max-width:400px) {
+     .main {
+         margin-top: 70px;
+     }
+     .main p {
+         font-size: 35px;
+     }
+     button {
+         margin-left: 0;
+         width: 100%;
+     }
+ }
