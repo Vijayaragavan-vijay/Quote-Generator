@@ -1,4 +1,4 @@
-# Quote-Generator
+# Quote-Generator Using HTML, CSS, JS
 Screenshot
 Desktop view:
 
